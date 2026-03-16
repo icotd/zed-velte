@@ -7,5 +7,5 @@ authors = ["Zed Industries <support@iqon.tech>"]
 repository = "https://github.com/icotd/zed-velte"
 
 [grammars.velte]
-repository = "https://github.com/tree-sitter-grammars/tree-sitter-velte"
-commit = "3f06f705410683adb17d146b5eca28c62fe81ba6"
+repository = "https://github.com/icotd/tree-sitter-velte.git"
+commit = "01e83cf764cc0063551be64d6b1235766c6fe2cd"
