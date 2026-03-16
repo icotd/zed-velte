@@ -3,8 +3,8 @@ name = "Velte"
 description = "Lightweight Velte syntax highlighting for Zed"
 version = "0.2.11"
 schema_version = 1
-authors = ["Zed Industries <support@zed.dev>"]
-repository = "https://github.com/zed-extensions/velte"
+authors = ["Zed Industries <support@iqon.tech>"]
+repository = "https://github.com/icotd/zed-velte"
 
 [grammars.velte]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-velte"
