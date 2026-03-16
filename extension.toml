@@ -1,11 +1,21 @@
 id = "velte"
 name = "Velte"
-description = "Lightweight Velte syntax highlighting for Zed"
+description = "Velte support with syntax highlighting and language server"
 version = "0.2.11"
 schema_version = 1
 authors = ["Zed Industries <support@iqon.tech>"]
 repository = "https://github.com/icotd/zed-velte"
 
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
 [grammars.velte]
 repository = "https://github.com/icotd/tree-sitter-velte.git"
 commit = "01e83cf764cc0063551be64d6b1235766c6fe2cd"
+
+[language_servers.velte-language-server]
+language = "Velte"
+languages = []
+
+[language_servers.velte-language-server.language_ids]
